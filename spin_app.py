@@ -15,6 +15,7 @@ app.layout = html.Div(
             type="default",
             children=html.Div(id="loading-output-1")
         ),
+        # Test
         html.Div(
             [
                 dcc.Input(id="loading-input-2", value='Input triggers nested spinner'),
