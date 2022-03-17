@@ -15,6 +15,8 @@ app.layout = html.Div(
             type="default",
             children=html.Div(id="loading-output-1")
         ),
+        # In the advanced class (its easier than it sounds), we make inputs based on code online.
+        #
         html.Div(
             [
                 dcc.Input(id="loading-input-2", value='Input triggers nested spinner'),
